@@ -1,0 +1,11 @@
+achiyazigi@achiyazigi-Virtual-Machine:~/Desktop/os-course$ ldd main1_2
+	linux-vdso.so.1 (0x00007ffebdbd2000)
+	libhello_ariel.so => ./libhello_ariel.so (0x00007f0124fad000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f0124da7000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f0124fb9000)
+achiyazigi@achiyazigi-Virtual-Machine:~/Desktop/os-course$ ldd main1_3
+	linux-vdso.so.1 (0x00007ffed13cc000)
+	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f9161a02000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f9161810000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f9161a23000)
+
