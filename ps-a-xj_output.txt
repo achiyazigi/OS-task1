@@ -1,0 +1,23 @@
+vscode ➜ /workspaces/os/OS-task1 (main ✗) $ echo $$
+44154
+vscode ➜ /workspaces/os/OS-task1 (main ✗) $ ps -xj
+ PPID   PID  PGID   SID TTY      TPGID STAT   UID   TIME COMMAND
+    0   101   101   101 ?           -1 Ssl   1000   0:00 /home/vscode/.vscode-server/bin/c185983a683d14c396952dd432459097bc7f757f/node /tmp/vscode-remo
+  101   119   101   101 ?           -1 S     1000   0:00 sh /home/vscode/.vscode-server/bin/c185983a683d14c396952dd432459097bc7f757f/server.sh --force-
+  119   121   101   101 ?           -1 Sl    1000   0:43 /home/vscode/.vscode-server/bin/c185983a683d14c396952dd432459097bc7f757f/node /home/vscode/.vs
+  121   167   101   101 ?           -1 Rl    1000   0:41 /vscode/vscode-server/bin/x64/c185983a683d14c396952dd432459097bc7f757f/node /vscode/vscode-ser
+    0 27315 27315 27315 ?           -1 Ss    1000   0:00 /bin/sh
+    0 27386 27386 27386 ?           -1 Ssl   1000   0:00 /home/vscode/.vscode-server/bin/c185983a683d14c396952dd432459097bc7f757f/node /tmp/vscode-remo
+    0 27475 27475 27475 ?           -1 Ss    1000   0:00 /bin/sh
+  121 27544   101   101 ?           -1 Sl    1000   0:10 /vscode/vscode-server/bin/x64/c185983a683d14c396952dd432459097bc7f757f/node /vscode/vscode-ser
+  121 27619   101   101 ?           -1 Sl    1000   5:05 /vscode/vscode-server/bin/x64/c185983a683d14c396952dd432459097bc7f757f/node /vscode/vscode-ser
+27619 27657   101   101 ?           -1 Sl    1000   0:37 /home/vscode/.vscode-server/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools
+27657 27690   101   101 ?           -1 Sl    1000   0:06 /home/vscode/.vscode-server/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 27657 {58DD4B
+27657 27946   101   101 ?           -1 Sl    1000   0:10 /home/vscode/.vscode-server/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 27657 {4656CF
+27619 37190   101   101 ?           -1 Sl    1000   0:01 /vscode/vscode-server/bin/x64/c185983a683d14c396952dd432459097bc7f757f/node /vscode/vscode-ser
+  167 42905 42905 42905 pts/3    42905 Ss+   1000   0:00 /bin/bash
+  167 43718 43718 43718 pts/4    43718 Ss+   1000   0:00 /bin/bash
+  167 44154 44154 44154 pts/6    61693 Ss    1000   0:00 /bin/bash
+    0 56218 56218 56218 ?           -1 Ssl   1000   0:00 /home/vscode/.vscode-server/bin/c185983a683d14c396952dd432459097bc7f757f/node -e  ????const ne
+    0 56235 56235 56235 ?           -1 Ssl   1000   0:00 /home/vscode/.vscode-server/bin/c185983a683d14c396952dd432459097bc7f757f/node -e  ????const ne
+44154 61693 61693 44154 pts/6    61693 R+    1000   0:00 ps -xj
