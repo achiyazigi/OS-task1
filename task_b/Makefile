@@ -2,7 +2,7 @@
 .PHONY: all clean
 CC =gcc
 
-all: main1_1 main1_2 main1_3
+all: main2_1 main2_2 main2_3 main2_4
 
 main1_1: main1_1.c hello_ariel.c hello_ariel.h
 	$(CC) $^ -o $@
@@ -27,4 +27,4 @@ hello_ariel.o: hello_ariel.c hello_ariel.h
 libhello_ariel.so: hello_ariel.o
 	$(CC) -shared -fPIC -o $@ $<
 clean:
-	rm main1_1 main1_2 main1_3 main2_1 main2_2 hello_ariel.o libhello_ariel.so
+	rm main1_1 main1_2 main1_3 main2_1 main2_2 main2_3 main2_4 hello_ariel.o libhello_ariel.so
