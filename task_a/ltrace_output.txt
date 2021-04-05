@@ -1,0 +1,3 @@
+vscode ➜ /workspaces/os/OS-task1/task_a (main ✗) $ ltrace ./main1_3
+hello ariel
++++ exited (status 0) +++
